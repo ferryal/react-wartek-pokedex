@@ -1,0 +1,78 @@
+{
+  "name": "react-wartek-pokedex",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.12",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "express": "^4.16.4",
+    "framer-motion": "^4.1.17",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.0",
+    "react-infinite-scroll-component": "^5.0.5",
+    "react-redux": "^7.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-toastify": "^5.3.2",
+    "react-transition-group": "^4.2.2",
+    "redux": "^4.0.5",
+    "redux-persist": "^5.3.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "EXTEND_ESLINT=true SKIP_PREFLIGHT_CHECK=true react-scripts start",
+    "build": "EXTEND_ESLINT=true SKIP_PREFLIGHT_CHECK=true react-scripts build",
+    "eject": "react-scripts eject",
+    "eslint-fix": "eslint --fix \"**/*.js\" \"**/*.jsx\"",
+    "prettier-write": "prettier --write \"./**/*.json\" \"./**/*.md\" \"./**/*.html\" \"./**/*.css\" \"./**/*.scss\" --config ./.prettierrc.json --ignore-path ./.prettierignore",
+    "prettier-check": "prettier --check \"./**/*.json\" \"./**/*.md\" \"./**/*.html\" \"./**/*.css\" \"./**/*.scss\" --config ./.prettierrc.json --ignore-path ./.prettierignore"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{json,md,mdx,html,css,scss}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.11.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  }
+}
