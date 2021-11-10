@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import ListPokemon from './schenes/List-Pokemon';
-import PokemonDetail from './schenes/Pokemon-Detail';
+import ListPokemon from './pages/List-Pokemon';
+import PokemonDetail from './pages/Pokemon-Detail';
 
 const Routes = () => (
   <div>
