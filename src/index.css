@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: -webkit-fill-available;
+  font-family: 'Lato';
+  margin: 0;
+}
+
+@font-face {
+  font-family: "barcadebrawl";
+  src: url("../src/assets/fonts/BarcadeBrawl.ttf");
+}
