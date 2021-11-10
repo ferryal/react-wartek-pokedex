@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "barcadebrawl";
+  src: url("../../assets/fonts/BarcadeBrawl.ttf");
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "barcadebrawl";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navWrapper img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapperCard {
+  flex: 0 0 20%;
+  max-width: 20%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
